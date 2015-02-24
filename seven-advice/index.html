@@ -1,3 +1,4 @@
+
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,8 +10,8 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css?v=7e9ca5a4fe">
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=7e9ca5a4fe">
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css?v=10177646cf">
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=10177646cf">
 
     
 
@@ -37,6 +38,7 @@
     "author": {
         "@type": "Person",
         "name": "dh",
+        "image": "http://localhost:2368/content/images/2015/02/profile.jpg",
         "url": "http://localhost:2368/author/dh",
         "sameAs": "http://dhfromkorea.com"
     },
@@ -56,7 +58,14 @@
     <header id="site-head">
         
         <h1 class="blog-title"><a href="../">생이불유. 절차탁마.</a></h1>
-        <h2 class="blog-description">묵상.</h2>    </header>
+        <nav class="menu" role="nav">
+            <ul>
+              <li><a href="../introduce-dh/">자기소개</a></li>
+              <li><a href="http://www.dhfromkorea.com/">영문 블로그</a></li>
+              <li><a href="http://www.twitter.com/dhfromkorea">트위터</a></li>
+              <li><a href="http://www.github.com/dhfromkorea">프로젝트</a></li>
+            </ul>
+        </nav>    </header>
 
     
 <main class="content" role="main">
@@ -140,16 +149,29 @@
         <footer class="post-footer">
 
             <section class="author">
-                <div class="authorimage" style="background: url(index.html)"></div>
+                <div class="authorimage" style="background: url(../content/images/2015/02/profile.jpg)"></div>
                 <p class="attr">Author</p>
                 <h4><a href="http://dhfromkorea.com">dh</a></h4>
-                <p class="bio">생이불유.</p>
+                <p class="bio">흥미로운 프로젝트가 있는 곳이 제 고향입니다. 연세대에서 서성이다가, 이역만리 핀란드 알토대학에서 둥지 텃습니다.</p>
             </section>
 
         </footer>
 
 
-
+        <div id="disqus_thread">
+            <script type="text/javascript">
+                var disqus_shortname = 'YOUR_DISQUS_ID';
+                var disqus_identifier = '3';
+        
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
     </article>
 
 </main>
@@ -157,14 +179,14 @@
 
     <footer class="site-footer">
         <div class="inner">
-            <section class="copyright">© 2015 <a href="../">생이불유. 절차탁마.</a>. All rights reserved.</section>
-            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
-            <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
+            <section class="copyright">© 2015 생이불유. 절차탁마. All rights reserved.</section>
+            <section>Vapor 디자인 하신 분: <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <!-- <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section> -->
         </div>
     </footer>
 
-    <script src="../public/jquery.js?v=7e9ca5a4fe"></script>
+    <script src="../public/jquery.js?v=10177646cf"></script>
 
-    <script type="text/javascript" src="../assets/js/index.js?v=7e9ca5a4fe"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=10177646cf"></script>
 
 </body>
