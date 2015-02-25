@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>try: dh(x) = x</title><description>묵상.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 25 Feb 2015 00:12:20 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>20살 때 나를 괴롭혔던 일곱 가지 고민들</title><description>&lt;p&gt;오늘은 1월 12일 핀란드에 온지 딱 1년 되는 날이다. 미국에서 핀란드로 돌아오는 비행기 안에서 '내가 20살 때 누군가 말해주었으면 좋았을 것들'을 정리해보았다. 모두 큰 질문들인데, 나만의 해답을 공유해본다. 물론 살면서 검증해나가고 있는 가설들이다.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>try: dh(x) = x</title><description>묵상.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Wed, 25 Feb 2015 01:55:04 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>20살 때 나를 괴롭혔던 일곱 가지 고민들</title><description>&lt;p&gt;오늘은 1월 12일 핀란드에 온지 딱 1년 되는 날이다. 미국에서 핀란드로 돌아오는 비행기 안에서 '내가 20살 때 누군가 말해주었으면 좋았을 것들'을 정리해보았다. 모두 큰 질문들인데, 나만의 해답을 공유해본다. 물론 살면서 검증해나가고 있는 가설들이다.&lt;/p&gt;
 
 &lt;h2 id=""&gt;결정은 어떻게 하는가?&lt;/h2&gt;
 
@@ -211,64 +211,4 @@
 
 &lt;p&gt;손가락 아퍼서 그만 씀.&lt;/p&gt;
 
-&lt;p&gt;[1]: 그 사람이 채용되면 어차피 해야하게 될 일 혹은 그 일의 그림자(?) 같은 일을 맡겨본다. 왜냐하면 1) 직접 어떤 일을 하게 될지 경험해보게 되어 자신이 지원한 회사에 대한 이해도가 높아진다. 고로 서로 실수하는 가능성이 줄어든다. 2) IQ quiz를 통한 가짜 업무 능력이 아니라, 실제 업무 처리/배달(?) 능력을 확인한다. &lt;/p&gt;</description><link>http://localhost:2368/on-hiring-in-sf/</link><guid isPermaLink="false">3e1729a8-f336-4d50-8786-4296d21ebcd9</guid><dc:creator>dh</dc:creator><pubDate>Tue, 24 Feb 2015 10:15:39 GMT</pubDate></item><item><title>자기소개</title><description>&lt;p&gt;반갑습니다. 편하게 DH라고 불러주시면 됩니다. 간단히 제가 해왔던 일을 소개해드립니다.&lt;/p&gt;
-
-&lt;h2 id="20"&gt;20대 인생 요약&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;연세대에서 경제학 (휴학), 핀란드 알토 경영대학 (재학).&lt;/li&gt;
-&lt;li&gt;현재 샌프란시스코 소재 Plivo라는 벤처 회사에서 마케터로 일하고 있습니다.&lt;/li&gt;
-&lt;li&gt;2013년 북유럽/실리콘밸리를 잇는 최대 인턴십 프로그램인 Startup Life 공동운영했습니다. &lt;/li&gt;
-&lt;li&gt;2012년 18개국 글로벌 캠페인 Day for Failure 주최/운영하였습니다. (해외 기사)&lt;/li&gt;
-&lt;li&gt;2012년부터 핀란드 벤처생태계의 중심인 Aaltoes와 Startup Sauna에서 유일한 아시아인으로 활동.&lt;/li&gt;
-&lt;li&gt;2011년 한국 최고의 소셜브레인 집단인 임팩트 스퀘어의 초기 인턴으로 일했습니다.&lt;/li&gt;
-&lt;li&gt;09년 10월 12일 부터 11년 8월 6일까지 육군정보통신학교에서 22개월동안 열심히 커피 탔습니다.&lt;/li&gt;
-&lt;li&gt;그리고 생산성, 창업, 스타트업에 관한 글 계속 써오고 있습니다. (글 목록)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=""&gt;연락처&lt;/h2&gt;
-
-&lt;p&gt;문의를 많이 받습니다. 문의하시는 분의 편의를 위해, 간략히 제 생각을 공유합니다.
-도움드릴 수 있는 것: 핀란드 스타트업 관련 요청이면 최대한 도와드리겠습니다. 국내 대표 기업, 미디어, 및 정부기관에서 오신 분들을 도왔습니다. 이 지역의 흥미로운 기업/기업가 연결해드려왔습니다. 통역 &amp;amp; 주선비는 공정한만큼 받습니다.
-도와드릴 수 없는 것: 스타트업과 관련 없는 일. 성의 없는 요청. 
-이메일: dh (at) startupsauna (dot) com (가장 빠릅니다.)&lt;/p&gt;
-
-&lt;h2 id=""&gt;서식처&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Linked (부끄러운 이력서)&lt;/li&gt;
-&lt;li&gt;Twitter (짧은 생각들)&lt;/li&gt;
-&lt;li&gt;Blog (긴 생각들)&lt;/li&gt;
-&lt;li&gt;Kippt (쓴 것들과 읽는 것들)
-삶의 나침반&lt;/li&gt;
-&lt;li&gt;생이불유(生而不有)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=""&gt;성향&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MBTI : ENTJ&lt;/li&gt;
-&lt;li&gt;게으르다. 게을러지기 위해 부지런하게 산다.&lt;/li&gt;
-&lt;li&gt;계획의 단위는 하루, 3개월, 10년이면 단 세 가지만.&lt;/li&gt;
-&lt;li&gt;배움과 나눔이라는 두 기준을 놓고 철저하게 이기적으로 살려고 함.
-일이라 여기지 않는 것&lt;/li&gt;
-&lt;li&gt;새로운 것을 배우기, 글읽기, 글쓰기, Vagabonding, 스쿠버 다이빙, Web Design, HTML/CSS, 스타크래프트 &amp;amp; 닌텐도 게임 &amp;amp; 인디 퍼즐게임, 매력적인 인간이 나오는 만화 읽기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=""&gt;특별히 존경하는 분들&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ricardo Semler of SEMCO.&lt;/li&gt;
-&lt;li&gt;마사요시 손.&lt;/li&gt;
-&lt;li&gt;안철수.&lt;/li&gt;
-&lt;li&gt;이소룡.&lt;/li&gt;
-&lt;li&gt;유일한.&lt;/li&gt;
-&lt;li&gt;김구.&lt;/li&gt;
-&lt;li&gt;정약용.&lt;/li&gt;
-&lt;li&gt;Ray Anderson of Interface.&lt;/li&gt;
-&lt;li&gt;Will Wright of Sims.&lt;/li&gt;
-&lt;li&gt;Jonathan Blow of Braid.&lt;/li&gt;
-&lt;li&gt;John Keating from Dead Poets Society.&lt;/li&gt;
-&lt;li&gt;Celine from Before Midnight. (not from Before Sunrise or Before Sunset and not Julie Delpy.)&lt;/li&gt;
-&lt;li&gt;현재 수중에 1억은 없습니다. (아직은)&lt;/li&gt;
-&lt;/ul&gt;</description><link>http://localhost:2368/introduce-dh/</link><guid isPermaLink="false">78aaa261-5837-49c7-a72f-d7ad6b2e22cc</guid><dc:creator>dh</dc:creator><pubDate>Mon, 24 Feb 2014 15:14:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;[1]: 그 사람이 채용되면 어차피 해야하게 될 일 혹은 그 일의 그림자(?) 같은 일을 맡겨본다. 왜냐하면 1) 직접 어떤 일을 하게 될지 경험해보게 되어 자신이 지원한 회사에 대한 이해도가 높아진다. 고로 서로 실수하는 가능성이 줄어든다. 2) IQ quiz를 통한 가짜 업무 능력이 아니라, 실제 업무 처리/배달(?) 능력을 확인한다. &lt;/p&gt;</description><link>http://localhost:2368/on-hiring-in-sf/</link><guid isPermaLink="false">3e1729a8-f336-4d50-8786-4296d21ebcd9</guid><dc:creator>dh</dc:creator><pubDate>Tue, 24 Feb 2015 10:15:39 GMT</pubDate></item></channel></rss>
