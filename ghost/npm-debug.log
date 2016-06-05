@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.35
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/dh/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/dh/.npm/ghost/0.5.8/package.tgz', '.' ]
+12 verbose tarball /Users/dh/.npm/ghost/0.5.8/package.tgz
+13 verbose folder .
+14 info prepublish ghost@0.5.8
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/dh/.npm/1f1177db-tar.lock
+17 silly lockFile 6c8e3aac-s-dh-npm-ghost-0-5-8-package-tgz tar:///Users/dh/.npm/ghost/0.5.8/package.tgz
+18 verbose lock tar:///Users/dh/.npm/ghost/0.5.8/package.tgz /Users/dh/.npm/6c8e3aac-s-dh-npm-ghost-0-5-8-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 6c8e3aac-s-dh-npm-ghost-0-5-8-package-tgz tar:///Users/dh/.npm/ghost/0.5.8/package.tgz
+22 silly lockFile 6c8e3aac-s-dh-npm-ghost-0-5-8-package-tgz tar:///Users/dh/.npm/ghost/0.5.8/package.tgz
+23 silly lockFile 707b0403-Users-dh-npm-ghost-0-5-8-package /Users/dh/.npm/ghost/0.5.8/package
+24 verbose lock /Users/dh/.npm/ghost/0.5.8/package /Users/dh/.npm/707b0403-Users-dh-npm-ghost-0-5-8-package.lock
+25 silly lockFile 707b0403-Users-dh-npm-ghost-0-5-8-package /Users/dh/.npm/ghost/0.5.8/package
+26 silly lockFile 707b0403-Users-dh-npm-ghost-0-5-8-package /Users/dh/.npm/ghost/0.5.8/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'ghost',
+29 silly publish   version: '0.5.8',
+29 silly publish   description: 'Just a blogging platform.',
+29 silly publish   author: { name: 'Ghost Foundation' },
+29 silly publish   homepage: 'http://ghost.org',
+29 silly publish   keywords: [ 'ghost', 'blog', 'cms' ],
+29 silly publish   repository: { type: 'git', url: 'git://github.com/TryGhost/Ghost.git' },
+29 silly publish   bugs: { url: 'https://github.com/TryGhost/Ghost/issues' },
+29 silly publish   contributors: 'https://github.com/TryGhost/Ghost/graphs/contributors',
+29 silly publish   licenses:
+29 silly publish    [ { type: 'MIT',
+29 silly publish        url: 'https://raw.github.com/TryGhost/Ghost/master/LICENSE' } ],
+29 silly publish   main: './core/index',
+29 silly publish   scripts: { start: 'node index', test: 'grunt validate --verbose' },
+29 silly publish   engines: { node: '~0.10.0' },
+29 silly publish   engineStrict: true,
+29 silly publish   dependencies:
+29 silly publish    { bcryptjs: '2.0.2',
+29 silly publish      bluebird: '2.4.2',
+29 silly publish      'body-parser': '1.10.0',
+29 silly publish      bookshelf: '0.7.9',
+29 silly publish      busboy: '0.2.9',
+29 silly publish      cheerio: '0.18.0',
+29 silly publish      colors: '0.6.2',
+29 silly publish      compression: '1.2.2',
+29 silly publish      'connect-slashes': '1.3.0',
+29 silly publish      downsize: '0.0.8',
+29 silly publish      express: '4.10.6',
+29 silly publish      'express-hbs': '0.7.11',
+29 silly publish      'extract-zip': '1.0.3',
+29 silly publish      'fs-extra': '0.13.0',
+29 silly publish      glob: '4.3.2',
+29 silly publish      'html-to-text': '1.0.0',
+29 silly publish      knex: '0.7.3',
+29 silly publish      lodash: '2.4.1',
+29 silly publish      moment: '2.8.3',
+29 silly publish      morgan: '1.5.0',
+29 silly publish      'node-uuid': '1.4.2',
+29 silly publish      nodemailer: '0.7.1',
+29 silly publish      oauth2orize: '1.0.1',
+29 silly publish      passport: '0.2.1',
+29 silly publish      'passport-http-bearer': '1.0.1',
+29 silly publish      'passport-oauth2-client-password': '0.1.2',
+29 silly publish      request: '2.51.0',
+29 silly publish      rss: '1.0.0',
+29 silly publish      semver: '4.1.0',
+29 silly publish      'showdown-ghost': '0.3.4',
+29 silly publish      sqlite3: '3.0.4',
+29 silly publish      unidecode: '0.1.3',
+29 silly publish      validator: '3.26.0',
+29 silly publish      xml: '0.0.12',
+29 silly publish      mysql: '2.1.1',
+29 silly publish      pg: '4.1.1' },
+29 silly publish   optionalDependencies: { mysql: '2.1.1', pg: '4.1.1' },
+29 silly publish   devDependencies:
+29 silly publish    { blanket: '~1.1.6',
+29 silly publish      bower: '~1.3.10',
+29 silly publish      grunt: '~0.4.5',
+29 silly publish      'grunt-cli': '~0.1.13',
+29 silly publish      'grunt-autoprefixer': '1.0.1',
+29 silly publish      'grunt-concat-sourcemap': '~0.4.3',
+29 silly publish      'grunt-contrib-clean': '~0.6.0',
+29 silly publish      'grunt-contrib-compress': '~0.11.0',
+29 silly publish      'grunt-contrib-concat': '~0.5.0',
+29 silly publish      'grunt-contrib-copy': '~0.5.0',
+29 silly publish      'grunt-contrib-jshint': '~0.10.0',
+29 silly publish      'grunt-contrib-uglify': '~0.6.0',
+29 silly publish      'grunt-contrib-watch': '~0.6.1',
+29 silly publish      'grunt-docker': '~0.0.8',
+29 silly publish      'grunt-ember-templates': '~0.5.0-alpha',
+29 silly publish      'grunt-es6-module-transpiler': '~0.6.0',
+29 silly publish      'grunt-express-server': '~0.4.19',
+29 silly publish      'grunt-jscs': '~1.1.0',
+29 silly publish      'grunt-mocha-cli': '~1.11.0',
+29 silly publish      'grunt-sass': '~0.16.1',
+29 silly publish      'grunt-shell': '~1.1.1',
+29 silly publish      'grunt-update-submodules': '~0.4.1',
+29 silly publish      matchdep: '~0.3.0',
+29 silly publish      nock: '0.52.4',
+29 silly publish      'require-dir': '~0.1.0',
+29 silly publish      rewire: '~2.1.0',
+29 silly publish      should: '~4.4.2',
+29 silly publish      sinon: '~1.12.2',
+29 silly publish      supertest: '~0.15.0',
+29 silly publish      testem: '^0.6.23',
+29 silly publish      'top-gh-contribs': '0.0.5' },
+29 silly publish   readme: '# [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://travis-ci.org/TryGhost/Ghost.svg?branch=master)](https://travis-ci.org/TryGhost/Ghost)\n\n![Ghost Screenshot](https://cloud.githubusercontent.com/assets/120485/4828504/9e832764-5f80-11e4-8ac1-0332bcc67a35.png)\n\nGhost is a free, open, simple blogging platform that\'s available to anyone who wants to use it. Lovingly created and maintained by [John O\'Nolan](http://twitter.com/JohnONolan) + [Hannah Wolfe](http://twitter.com/ErisDS) + an amazing group of [contributors](https://github.com/TryGhost/Ghost/contributors).\n\nVisit the project\'s website at <http://ghost.org> &bull; docs on <http://support.ghost.org>.\n\n\n## Getting Involved\n\nWant to report a bug, request a feature, contribute or translate Ghost? Check out our in-depth guide to [Contributing to Ghost](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md). We need all the help we can get! You can also join in with our [community](https://github.com/TryGhost/Ghost#community) to keep up-to-date and meet other Ghosters.\n\n\n## Getting Started\n\nThere are a few different ways to install Ghost, take care to use the method which best suits your needs.\n\n**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download), the [GitHub releases page](https://github.com/TryGhost/Ghost/releases), and via npm are pre-built packages designed for getting setup quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself. \n\n\n### Install from zip (fastest & best for bloggers)\n\nIf you just want to get a Ghost blog running in the fastest time possible, this method is for you.\n\nFor detailed instructions on various platforms, visit the [Ghost Installation Guide](http://support.ghost.org/installation/). If you get stuck, help is available on [our support site](http://support.ghost.org/).\n\n1. Install [Node.js](http://nodejs.org) - Ghost requires **Node v0.10.x**\n1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download). \n1. Create a new directory where you would like to run the code, and un-zip the package to that location.\n1. Fire up a Terminal, the Node Command Prompt or shell and change directory to the root of the Ghost application (where config.example.js and index.js are)\n1. run `npm install --production` to install the node dependencies. If you see `error Error: ENOENT` on this step, make sure you are in the project directory and try again.\n1. To start ghost, run `npm start`\n1. Visit `http://localhost:2368/` in your web browser or go to `http://localhost:2368/ghost` to log in\n\nCheck out the [Documentation](http://support.ghost.org/) for more detailed instructions, or get in touch via the [forum](http://ghost.org/forum) if you get stuck.\n\n\n### Install from git\n\nIf you\'re a developer or someone comfortable getting up and running from a `git clone`, this method is for you.\n\nIf you clone the GitHub repository, you will need to build a number of assets using grunt.\n\nPlease do **NOT** use the master branch of Ghost in production. If you are using git to deploy to production, please use the latest [release](https://github.com/TryGhost/Ghost/releases) or the [stable](https://github.com/TryGhost/Ghost/tree/stable) branch which contains the latest release.\n\nFull instructions & troubleshooting tips can be found in the [Contributing Guide](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#working-on-ghost-core).\n\n#### Quickstart:\n\n1. `npm install -g grunt-cli`\n1. `npm install`\n1. `grunt init` (and `grunt prod` if you want to run Ghost in production mode)\n1. `npm start`\n\nCheck out the [Documentation](http://support.ghost.org/) for more detailed instructions, or get in touch via the [forum](http://ghost.org/forum) if you get stuck.\n\n\n### Install from npm\n\nIf you want to build Ghost into a larger node app, or are familiar with using `npm` packages, then this method might be for you.\n\n`npm install ghost`\n\nFurther setup instructions can be found in the [using Ghost as an npm module](https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module) wiki entry.\n\n\n### Upgrading to The Latest Version\n\nUpgrade instructions can be found on the [Ghost Support Site](http://support.ghost.org/how-to-upgrade/)\n\n\n### Logging in For The First Time\n\nOnce you have the Ghost server up and running, you should be able to navigate to `http://localhost:2368/ghost/` from a web browser, where you will be prompted to setup your blog and user account. Once you have entered your desired credentials you will be automatically logged in to the admin area. The setup screen will not be accessible once the process has been completed.\n\n\n## Community\n\nKeep track of Ghost development and Ghost community activity.\n\n* Follow Ghost on [Twitter](http://twitter.com/TryGhost), [Facebook](https://www.facebook.com/ghost) and [Google+](https://plus.google.com/114465948129362706086).\n* Read and subscribe to the [Official Ghost Blog](http://blog.ghost.org) and the [Ghost Development Blog](http://dev.ghost.org).\n* Join in discussions on the [Ghost Forum](http://ghost.org/forum/)\n* Chat with Ghost developers on IRC. We\'re on `irc.freenode.net`, in the `#Ghost` channel. We have a public meeting every Tuesday at 5:30pm London time.\n\n\n## Versioning\n\nFor transparency and insight into our release cycle, and for striving to maintain backward compatibility, Ghost will be maintained according to the [Semantic Versioning](http://semver.org/) guidelines as much as possible.\n\nReleases will be numbered with the following format:\n\n`<major>.<minor>.<patch>-<build>`\n\nConstructed with the following guidelines:\n\n* A new *major* release indicates a large change where backwards compatibility is broken.\n* A new *minor* release indicates a normal change that maintains backwards compatibility.\n* A new *patch* release indicates a bugfix or small change which does not affect compatibility.\n* A new *build* release indicates this is a pre-release of the version.\n\n\n## Copyright & License\n\nCopyright (c) 2013-2015 Ghost Foundation - Released under the [MIT license](LICENSE).\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   _id: 'ghost@0.5.8',
+29 silly publish   _shasum: '58ad2a1f7d362bdb83320b8b8a4afc0762dcba4c',
+29 silly publish   _from: '.' }
+30 verbose request where is /ghost
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 0b5d0214c6c855be
+33 verbose url raw /ghost
+34 verbose url resolving [ 'https://registry.npmjs.org/', './ghost' ]
+35 verbose url resolved https://registry.npmjs.org/ghost
+36 verbose request where is https://registry.npmjs.org/ghost
+37 info trying registry request attempt 1 at 12:38:34
+38 http PUT https://registry.npmjs.org/ghost
+39 http 403 https://registry.npmjs.org/ghost
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '99',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Sat, 23 Apr 2016 03:38:51 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1461382715.266287,VS0,VE15966',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 error publish Failed PUT 403
+42 error Error: you do not have permission to publish "ghost". Are you logged in as the correct user? : ghost
+42 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+42 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+42 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:944:16
+42 error     at process._tickCallback (node.js:442:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Darwin 15.4.0
+45 error command "node" "/usr/local/bin/npm" "publish"
+46 error cwd /Users/dh/Dropbox/master_personal/code_dh/scripts/blogs/blog_kr/ghost
+47 error node -v v0.10.35
+48 error npm -v 1.4.21
+49 verbose exit [ 1, true ]
